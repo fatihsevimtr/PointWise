@@ -17,7 +17,7 @@ import com.exerate.model.Receipt;
 import com.exerate.repository.ReceiptRepository;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/receipt/api")
 @EnableOAuth2Client
 public class ReceiptController {
 	@Autowired
